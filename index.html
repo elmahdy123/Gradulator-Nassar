@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Gradulator</title>
+</head>
+
+<body>
+    <div class="calc-container">
+
+
+        <div class="mobile-view">
+
+            <div class="inner-container">
+
+                <p class="text">Are you going<br>to pass?</p>
+
+                <div class="feilds-name">
+                    <div></div>
+                    <div>Score</div>
+                    <div> Target Score</div>
+                    <div>Weight</div>
+                </div>
+                    
+                <div class="segmants">
+                    <label type="text">Homeworks</label>
+                    <label type="text">Quizes</label>
+                    <label type="text">Midterm</label>
+                    <label type="text">Final</label>
+                </div>
+    
+                <div class="grade">
+                    <input type="text" placeholder="Your Score" />
+                    <input type="text" placeholder="Your Score" />
+                    <input type="text" placeholder="Your Score" />
+                    <input type="text" placeholder="Your Score" />
+                </div>
+                
+                <div class="target-score">
+                    <input type="text" placeholder="overall score" />
+                    <input type="text" placeholder="overall score" />
+                    <input type="text" placeholder="overall score" />
+                    <input type="text" placeholder="overall score" />
+                </div>
+    
+    
+                <div class="weight">
+                    <input type="text" placeholder="Weight" />
+                    <input type="text" placeholder="Weight" />
+                    <input type="text" placeholder="Weight" />
+                    <input type="text" placeholder="Weight" />
+                </div>
+
+
+            </div>
+
+            
+            <div class="result-container">
+
+                <button class="result-btn">Result</button>
+                <div class="show-result"></div>
+                <div class="letterGrade"></div>
+
+
+            </div>
+
+
+         </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

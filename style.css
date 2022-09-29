@@ -1,0 +1,143 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.calc-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 360px;
+    position: relative;
+    background-color: #FFB961;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.text {
+    position: absolute;
+    top: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-align: center;
+}
+
+.feilds-name {
+    display: flex;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.feilds-name div {
+   
+    width: 90px;
+    height: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.segmants {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    height: 90%;
+    justify-content: space-between;
+    color: white;
+}
+
+.segmants label {
+    width: 100px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.target-score {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grade {
+    display: flex;
+    flex-direction: column;
+}
+
+.weight {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 8px;
+    margin: 2px;
+    color: black;
+    background: rgba(232, 232, 232, 0.79);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    width: 65px;
+    height: 40px;
+    margin: 10px;
+}
+
+label {
+    justify-content: left;
+    padding: 10px;
+}
+
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-btn {
+    width: 120px;
+    height: 54px;
+    background-color: rgba(224, 226, 225, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.show-result {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
